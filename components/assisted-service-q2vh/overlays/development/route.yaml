@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: assisted-service-q2vh
     app.kubernetes.io/part-of: assisted-service
-  name: assisted-service-q2vhilcx
+  name: assisted-service-q2vh6l0k
 spec:
   path: /
   port:
