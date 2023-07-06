@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/assisted-installer-tenant/assisted-service/assisted-service-q2vh@sha256:020cb8a88cbffcd767786fbb190aeae7263d7071efe9a43569ee53410b0e2986
+      - image: quay.io/redhat-user-workloads/assisted-installer-tenant/assisted-service/assisted-service-q2vh@sha256:1f516507007c1e632eb54b559a7c6608eea07fa59abac0f533e9a836c4fded27
         name: my-python
         resources: {}
 status: {}
