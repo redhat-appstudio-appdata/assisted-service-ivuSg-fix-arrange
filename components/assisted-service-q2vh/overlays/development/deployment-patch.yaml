@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: assisted-service-q2vh
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/assisted-installer-tenant/assisted-service/assisted-service-q2vh@sha256:82648491292382cc4e0b2220d388cc5cc673afa3de38be0cbca32e83aa092073
+      - image: quay.io/redhat-user-workloads/assisted-installer-tenant/assisted-service/assisted-service-q2vh@sha256:2cc9554b50240f061fde667e85d281e514ff0590d0546d8b661b8cba4bb68de1
         name: my-python
         resources: {}
 status: {}
