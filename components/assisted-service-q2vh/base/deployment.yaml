@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: assisted-service-q2vh
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/assisted-installer-tenant/assisted-service/assisted-service-q2vh@sha256:9385a554d7cba643dc85be63af2d0a8fc460119a8c552cd5b7b32b89446add6d
+      - image: quay.io/redhat-user-workloads/assisted-installer-tenant/assisted-service/assisted-service-q2vh@sha256:68f449927e8764d9deef16df6350f03ecdc6a53f1806d0f3bc7093fbb6e66863
         name: my-python
         ports:
         - containerPort: 8081
